@@ -4,9 +4,10 @@
 <head>
     <title>Eat Da Burger!</title>
     <link rel="icon" href="assets/img/burger-flat.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/burger_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
 
 </head>
 
@@ -16,14 +17,11 @@
             <div class="row">
                 <div class="jumbotron">
                     <h1>Eat Da Burger!</h1>
-                <img src="assets/img/burger-flat.png" alt="">
-                    <p>Devour a burger using the list below!</p>
-                    <p>Don't see a burger you like? Add an entry to the list using the submit form!</p>
+                    <img src="assets/img/burger-flat.png" alt="">
+                    <hr>
+                    {{{body}}}
         </center>
-        {{{body}}}
-        <br>
-        <br>
-        
+
         <form action="burger/create" method="POST">
             <div class="row">
                 <div class="col-md-3"></div>
@@ -31,13 +29,13 @@
                     <center>
                         <label for="new_burger" class="submitType">Request a new burger:</label>
                     </center>
-                    <textarea class="form-control" type="text" columns="6" rows="2" id="new_burger required value=" name="burger_name"></textarea>
+                    <textarea class="form-control" type="text" columns="6" rows="1" id="new_burger required value=" name="burger_name"></textarea>
                 </div>
                 <div class="col-md-3">
                 </div>
             </div>
             <center>
-                <button id="submit-button" type="submit" class="btn btn-primary">Make my Burger!</button>
+                <button id="submit-button" type="submit" class="btn btn-primary">Add my Burger!</button>
             </center>
         </form>
         <br>

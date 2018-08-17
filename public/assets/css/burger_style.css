@@ -1,23 +1,25 @@
 body {
     background-color: rgb(31, 199, 148);
+    font-family: 'Jua', sans-serif;
   }
   
   .jumbotron h1{
       color: #ff4133;
-  
+      font-family: 'Jua', sans-serif;
   }
   
   .jumbotron{
       padding-top: 0%;
       background-color: transparent;
+      font-family: 'Jua', sans-serif;
   }
   
   img {
     margin-top: 0%;
-    margin-bottom: 2%;
     width: 15%;
   }
   
   .submitType{
       color: black;
+      font-family: 'Jua', sans-serif;
   }
