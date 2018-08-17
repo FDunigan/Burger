@@ -20,3 +20,6 @@ Follow the instructions below to install:
 - Handlebars
 - ORM
 - MySQL
+
+## For Help
+Please visit [my website](https://fdunigan.github.io/) and enter your contact information for assistance. 
