@@ -2,7 +2,7 @@
 Eat Da Burger is a full-stack application which logs burgers a user has devoured and has the potential to devour. Users also have the ability to add burgers they wish to see on the menu, and ultimately eat. 
 
 ## Demo
-Eat Da Burger is deployed to Heroku. You can try the site out for yourself [here]().
+Eat Da Burger is deployed to Heroku. You can try the site out for yourself [here](https://calm-springs-77711.herokuapp.com/index).
 
 ## Installation
 Follow the instructions below to install:
